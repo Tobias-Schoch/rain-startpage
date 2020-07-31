@@ -1,0 +1,3 @@
+loadLinks();
+sortLinks();
+dockColor();

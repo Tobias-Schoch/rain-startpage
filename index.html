@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocket ♡ Launchpad</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <script src="js/rain/index.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="slideshow">
+        <canvas width="1" height="1" id="container" style="position:absolute"></canvas>
+    </div>
+</div>
+<div id="mySidenav" class="sidenav">
+    <div class="container-settings">
+        <span>Add link</span>
+        <input type="text" value="" id="urlUrl">
+        <input type="text" value="" id="iconUrl">
+        <button id="addUrl">Save text</button>
+        <span>Delete link</span>
+        <select type="text" id="delUrl"></select>
+        <button id="deleteUrl">Delete URL</button>
+        <hr>
+        <span>Export</span>
+        <input type="text" value="Hello World" id="local">
+        <button id="getLocal">Copy text</button>
+        <span>Import</span>
+        <input type="text" value="" id="local2">
+        <button id="importLocal">Save text</button>
+        <hr>
+        <span>Dock Color</span>
+        <button id="switchColor">Switch</button>
+    </div>
+</div>
+
+<div id="dock" class="dock">
+    <div class="dock-container" id="dock-container">
+        <ul class="dock-element" id="dock-element">
+            <li id="test">
+                <img src="img/icons/settings.png"/>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/Sortable.js"></script>
+<script src="lib/jquery-sortable.js"></script>
+
+<script src="js/init.js"></script>
+
+<script src="js/dock/dockColor.js"></script>
+<script src="js/dock/sortAndLoad.js"></script>
+<script src="js/dock.js"></script>
+
+<script src="js/menu/changeDockColor.js"></script>
+<script src="js/menu/displayMenu.js"></script>
+<script src="js/menu/importExport.js"></script>
+<script src="js/menu/manageUrl.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+#urlLinks {
+    margin-top: 20px;
+}
+
+#urlLinks a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#deleteUrl, #importLocal {
+    margin-bottom: 30px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav span {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.container-settings {
+    display: inline-block;
+    text-align: center;
+}
+
+.container-settings span {
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+
+.container-settings button, .container-settings input, .container-settings select {
+    border: none;
+    background-color: #44454a;
+    color: white;
+    outline: none;
+}
+
+.container-settings input, .container-settings select {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 3px 7px;
+    border-radius: 15px;
+}
+
+.container-settings button {
+    height: 25px;
+    border-radius: 3px;
+    width: 120px;
+    cursor: pointer;
+}
